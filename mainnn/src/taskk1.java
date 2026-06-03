@@ -44,6 +44,7 @@ m.addbook("oop");
 m.addbook("Coal");
 m.addbook("ITC"); m.display();
 m.removebook("ITC");
+
         System.out.println("is oop available:"+m.isbookavailable("oop"));
         System.out.println("After removal");
         m.display();
